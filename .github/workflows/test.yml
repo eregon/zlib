@@ -39,5 +39,3 @@ jobs:
     - name: Run test
       run: bundle exec rake compile test
       timeout-minutes: 5
-      env:
-        MACOSX_DEPLOYMENT_TARGET: "11.0"
